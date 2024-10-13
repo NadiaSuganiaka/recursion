@@ -4,9 +4,7 @@ function sumArray(array) {
     } else {
         return array[0] + sumArray(array.slice(1));
     }
-}
-
-    
+}   
 
 console.log (sumArray([1, 2, 3, 4, 5]));
 console.log (sumArray([0, 0, 0]));
